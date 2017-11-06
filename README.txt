@@ -1,0 +1,3 @@
+A Pen created at CodePen.io. You can find this one at https://codepen.io/bugsinthecode/pen/MJZawy.
+
+ Simple javascript-based calculator that allows the user to do operations such as: multiplication, division, subtraction, and addition. Included is a clear all button, a delete button,  a +/- change button, and a percent button. The calculator can take input from the on-screen buttons or keyboard inputs. 

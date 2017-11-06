@@ -1,0 +1,91 @@
+/*controls the width of the container for different screens*/
+@media (min-width: 568px) {
+  .container {
+    margin-top:50px;
+    width: 100%;
+     box-shadow: 0px 0px 10px black;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    margin-top:50px;
+    width: 550px;
+    box-shadow: 0px 0px 10px black;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    margin-top:50px;
+    width: 350px;
+    box-shadow: 0px 0px 10px black;
+  }
+}
+/*screen control end*/
+
+/*various html element changes*/
+body{
+  background-color:#4e4e56;
+}
+/*various html element changes end*/
+/*various custom css classes*/
+.small-padding{
+  padding:2px;
+}
+.small-margin{
+  margin:2px;
+}
+
+.red-shadow{
+  box-shadow: 0px 0px 20px red;
+}
+
+.grey-background{
+  color:grey;
+}
+/*custom css classes end*/
+/*calculator body*/
+#calculator{
+  border: solid #f43d5e 2px;
+  border-radius:5px;
+  padding:0px;
+  background-color:#0bc4a3;
+}
+/*calculator body end*/
+#title{
+  padding-left:10px;
+  margin:3px;
+  color:white;
+  font-family:'Raleway', sans-serif;
+}
+
+.well{
+  margin-bottom:5px;
+  height:70px;
+}
+
+#total-equation{
+  text-align:right;
+}
+#current-result{
+  text-align:right;
+}
+/*calc buttons*/
+.btn-primary{
+  background-color:white;
+  border:solid #f43d5e 1.5px;
+  border-radius:0px;
+  color:black;
+  font-size:2em;
+}
+
+.btn-primary:hover{
+  background-color:LightGrey;
+}
+
+.btn-primary:active:focus{
+  background-color:grey;
+}
+/*calc buttons end*/
+.grey-background{
+  background-color:grey;
+}
